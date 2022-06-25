@@ -1,6 +1,7 @@
 export default {
     COLORS:{
-        BACKGROUND:'#F2F2F2',
+        BACKGROUND:'#0B0B0E',
+        ZUVVII:'#61C1B2',
         TEXT: '#170126',
         ALERT: '@73074D',
         PRIMARY_900: '#280540',

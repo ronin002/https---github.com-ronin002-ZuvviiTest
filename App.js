@@ -2,7 +2,8 @@
 import React from 'react';
 import {StatusBar} from 'expo-status-bar';
 
-import { Home } from './src/screens/Home';
+import { Routes } from './src/routes';
+
 import { useFonts, Roboto_400Regular, Roboto_500Medium, Roboto_700Bold } from '@expo-google-fonts/roboto';
 import AppLoading from 'expo-app-loading';
 
@@ -24,9 +25,9 @@ export default function App() {
       <StatusBar 
         style="light"
         translucent
-        backgroundColor='trasnparent'
+        backgroundColor='transparent'
       />
-      <Home/>
+       <Routes />
     </ThemeProvider>
     
   );

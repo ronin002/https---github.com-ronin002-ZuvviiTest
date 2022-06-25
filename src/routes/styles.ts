@@ -3,9 +3,18 @@ import {RFPercentage} from 'react-native-responsive-fontsize';
 
 
 export const Container = styled.View`
+    align-items:center;
+    width: 180px;
+    
+    height:250px;
 
-    background-color: ${( props ) => props.theme.COLORS.BACKGROUND };
-    color:${( props ) => props.theme.COLORS.ZUVVII };
+    padding: 16px;
+    
+    background-color: ${( props ) => props.theme.COLORS.PRIMARY_900 };
+    color:${( props ) => props.theme.COLORS.TEXT };
+
+    margin: 0 10px;
+    border-radius: 10px;
 `;
 
 export const Image = styled.Image`

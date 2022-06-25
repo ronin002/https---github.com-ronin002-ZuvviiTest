@@ -1,25 +1,18 @@
 import React from 'react';
-import { View, Text } from 'react-native';
-
-import { Container, Header, Content } from './styles';
-
-import {Input} from '../../components/Input';
-import {Card} from '../../components/Card';
-
-import bannerImg from '../../assets/cover.png';
+import { View, Image } from 'react-native';
+import logo from '../../assets/zuvviitransparent.png';
+import { Container  } from './styles';
 
 export function Home() {
-    return (
-        <>
+  return (
+    <>
+     <Image source={logo}
+         />
+
         <Container>
-            <Header source={bannerImg}>
-                <Input placeholder="Search..."/>
-            </Header>  
-        </Container>
-        
-        <Content>
-            <Card/>
-        </Content>
-        </>
-    );
+       
+       </Container>
+    </>
+   
+  );
 }

@@ -2,25 +2,11 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
     flex: 1;
-
+    background-color: ${( props ) => props.theme.COLORS.BACKGROUND };
 `;
 
-export const Header = styled.ImageBackground`
-    width:100%;
-    height:250px;
-    justify-content:flex-end;
-
-    padding: 0 24px 16px;
-
-`;
-
-export const Content = styled.View`
-   flex:1;
-   justify-content:center;
-   align-items:center;
-`;
-
-export const Title = styled.Text`
-   color:#fff;
-   font-size:24px;
+export const Image = styled.Image`
+   
+    width:150px;
+    height:150px;
 `;
