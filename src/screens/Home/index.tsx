@@ -1,18 +1,15 @@
 import React from 'react';
 import { View, Image } from 'react-native';
-import logo from '../../assets/zuvviitransparent.png';
+import { Logo } from '../../components/Logo';
 import { Container  } from './styles';
 
 export function Home() {
   return (
-    <>
-     <Image source={logo}
-         />
-
-        <Container>
-       
-       </Container>
-    </>
+  
+    <Container>
+        <Logo/>
+    </Container>
+ 
    
   );
 }

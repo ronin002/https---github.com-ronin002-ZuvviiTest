@@ -22,7 +22,7 @@ export function StackRoutes(){
                     },
                     headerTintColor:'#FFF'
                 }}
-                component={ScreenA}
+                component={Home}
                 
             />
 
@@ -33,7 +33,7 @@ export function StackRoutes(){
                 options={{
                    headerShown:false,
                 }}
-                component={ScreenB}
+                component={Search}
             />
         </Navigator>
     )
