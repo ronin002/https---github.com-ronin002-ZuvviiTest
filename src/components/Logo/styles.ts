@@ -4,7 +4,7 @@ import {RFPercentage} from 'react-native-responsive-fontsize';
 
 export const Container = styled.View`
     width:100%;
-    height: 200px;
+    height: 100px;
 
     color:${( props ) => props.theme.COLORS.ZUVVII };
     justify-content:center;
